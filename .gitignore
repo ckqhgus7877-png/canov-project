@@ -1,0 +1,51 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+key.properties
+google-services.json
+GoogleService-Info.plist
+
+# Temporary and generated files
+tmp/
+temp/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.iml
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+android/.gradle/
+android/local.properties
+ios/Pods/
+ios/.symlinks/
+
+# Node / web
+node_modules/
+.astro/
+.vite/
+dist/
+.next/
+out/
+.vercel/
+.wrangler/
+
+# Supabase local state
+supabase/.branches/
+supabase/.temp/
+
