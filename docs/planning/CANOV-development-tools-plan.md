@@ -20,16 +20,18 @@
 | 모바일 앱 | Flutter + Dart | Windows에서 Android 앱 개발 및 추후 iOS 확장 가능성 유지 |
 | Android 환경 | Android Studio + Android SDK | 에뮬레이터, 실기기 연결, 빌드와 출시 |
 | 관리자 웹 | React + TypeScript + Vite | 예약·배정·작업 관리 화면 |
-| 브랜드 홈페이지 | Astro + TypeScript | 콘텐츠와 이미지 중심의 브랜드 사이트 |
-| 백엔드 | Supabase | PostgreSQL DB, 로그인, 사진 저장소, 접근 권한 |
+| 브랜드 홈페이지 | Astro + TypeScript | 콘텐츠와 이미지 중심의 브랜드 사이트. 랜딩 페이지 기술 조합으로 확정 |
+| 백엔드 | Supabase | PostgreSQL DB, 로그인, 사진 저장소, 접근 권한. 랜딩 페이지는 분리된 테스트 프로젝트 사용 |
 | 오류 수집 | Firebase Crashlytics | Android 앱 충돌과 오류 확인 |
 | 버전 관리 | Git + GitHub 비공개 저장소 | 기획·프롬프트·코드·검증 이력 공유 |
 | 자동 검사 | GitHub Actions | 변경 시 정적 검사, 테스트, 빌드 |
-| 웹 배포 | Cloudflare Pages 후보 | 홈페이지와 관리자 웹 배포 |
+| 랜딩 페이지 배포 | Cloudflare Workers + Access | Astro 정적 자산·신청 API 배포, 비공개 미리보기 접근 보호 |
 | 앱 출시 | Google Play Console | 내부·비공개 테스트 및 정식 출시 |
 | CS 자동화 | Claude 기반 서버측 에이전트 | 카노브 지식 검색, 답변 생성, 상담 요약과 상담원 연결. 구체 SDK와 호스팅은 상세 설계에서 확정 |
 
 결제사와 메신저 자동 발송 도구는 상품·운영 정책 결정 후 선택합니다. 세차 상품과 제공 범위는 관련 자료 수령 후 확정합니다.
+
+랜딩 페이지는 Astro + TypeScript, Supabase 테스트 프로젝트, Cloudflare Workers + Access 조합으로 확정합니다. 관리자 웹의 배포 기술은 구현 전 별도로 확정합니다.
 
 ## 구현 프롬프트 순서
 

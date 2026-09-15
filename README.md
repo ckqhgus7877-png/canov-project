@@ -23,6 +23,8 @@
 
 랜딩 페이지의 완료 조건과 핵심 검증 시나리오는 `docs/planning/CANOV-landing-page-acceptance-v0.1.md`를 기준으로 합니다.
 
+랜딩 페이지의 확정 기술 조합과 보안 원칙은 `docs/planning/CANOV-landing-page-architecture-v0.1.md`에 정리되어 있습니다.
+
 ## 폴더 구조
 
 ```text
