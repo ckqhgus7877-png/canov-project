@@ -19,6 +19,8 @@
 
 작업을 다른 기기에서 이어갈 때는 `docs/handoff/CURRENT.md`를 먼저 확인합니다.
 
+현재 진행 중인 Q&A 결정사항은 `docs/planning/CANOV-QNA-checkpoint-v0.1.md`에 정리되어 있습니다.
+
 ## 폴더 구조
 
 ```text
