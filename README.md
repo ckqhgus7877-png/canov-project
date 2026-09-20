@@ -25,6 +25,8 @@
 
 랜딩 페이지의 확정 기술 조합과 보안 원칙은 `docs/planning/CANOV-landing-page-architecture-v0.1.md`에 정리되어 있습니다.
 
+첫 공개 신청서의 개인정보 항목과 보유·파기 기준은 `docs/planning/CANOV-privacy-data-policy-v0.1.md`를 기준으로 합니다.
+
 ## 폴더 구조
 
 ```text
