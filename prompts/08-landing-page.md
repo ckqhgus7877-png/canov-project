@@ -178,12 +178,12 @@ Cloudflare Access로 보호되는 미리보기 호스트 안에 비개발자용 
 - 브라우저 콘솔 오류 확인
 - 빌드 산출물의 비밀 키 포함 여부 검사
 
-`docs/planning/CANOV-landing-page-acceptance-v0.1.md`의 LT-01부터 LT-28까지 결과를 `reviews/08-landing-page-initial.md`에 기록한다. 실행하지 못한 검사는 성공으로 쓰지 말고 이유와 재현 명령을 남긴다.
+`docs/planning/CANOV-landing-page-acceptance-v0.1.md`의 LT-01부터 LT-29까지 결과를 `reviews/08-landing-page-initial.md`에 기록한다. 실행하지 못한 검사는 성공으로 쓰지 말고 이유와 재현 명령을 남긴다.
 
 ## 14. 완료 조건
 
 - LP-01부터 LP-11까지 충족
-- LT-01부터 LT-28까지 결과 기록
+- LT-01부터 LT-29까지 결과 기록
 - 치명적·높음 오류 0건
 - 실제 개인정보·비밀 키·운영 데이터가 코드, Git, 로그와 캡처에 없음
 - 로컬 실행과 미리보기 배포 절차가 재현 가능함
