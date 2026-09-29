@@ -19,7 +19,7 @@
 
 작업을 다른 기기에서 이어갈 때는 `docs/handoff/CURRENT.md`를 먼저 확인합니다.
 
-현재 진행 중인 Q&A 결정사항은 `docs/planning/CANOV-QNA-checkpoint-v0.1.md`에 정리되어 있습니다.
+완료된 58개 Q&A 결정사항과 외부 자료 대기 항목은 `docs/planning/CANOV-QNA-checkpoint-v0.1.md`에 정리되어 있습니다.
 
 랜딩 페이지의 완료 조건과 핵심 검증 시나리오는 `docs/planning/CANOV-landing-page-acceptance-v0.1.md`를 기준으로 합니다.
 
