@@ -18,6 +18,8 @@
 - `docs/planning/CANOV-development-tools-plan.md`
 - `docs/references/CANOV-Brand-Story.pdf`
 
+로컬 디자인 기준은 `C:\Users\ckqhg\OneDrive\Documents\코덱스 프로젝트\카노브 랜딩페이지`의 최신 자료다. 구현 시작 전에 파일 목록을 다시 확인하고 사용한 파일명과 상태를 검증 보고서에 기록한다. 현재 확인된 `KakaoTalk_20260921_145912640_01.png`는 2078×757 투명 배경의 CANOV/CAR CARE 로고이며, 로고 형태와 짙은 네이비 브랜드 인상을 유지한다. 전체 화면 레이아웃·글꼴·간격·컴포넌트는 이 로고 한 장만으로 확정하지 않는다. 폴더나 자료를 찾을 수 없으면 임의 대체하지 말고 디자인 기준 누락으로 보고한다.
+
 문서가 충돌하면 최신 Q&A 체크포인트, 랜딩 페이지 완료 조건, 기술·보안 결정 순으로 우선한다. 미정 또는 자료 수령 대기 항목을 임의로 확정하지 않는다.
 
 ## 3. 확정 기술 조합
@@ -179,12 +181,12 @@ Cloudflare Access로 보호되는 미리보기 호스트 안에 비개발자용 
 - 브라우저 콘솔 오류 확인
 - 빌드 산출물의 비밀 키 포함 여부 검사
 
-`docs/planning/CANOV-landing-page-acceptance-v0.1.md`의 LT-01부터 LT-41까지 결과를 `reviews/08-landing-page-initial.md`에 기록한다. 실행하지 못한 검사는 성공으로 쓰지 말고 이유와 재현 명령을 남긴다.
+`docs/planning/CANOV-landing-page-acceptance-v0.1.md`의 LT-01부터 LT-42까지 결과를 `reviews/08-landing-page-initial.md`에 기록한다. 실행하지 못한 검사는 성공으로 쓰지 말고 이유와 재현 명령을 남긴다.
 
 ## 14. 완료 조건
 
 - LP-01부터 LP-11까지 충족
-- LT-01부터 LT-41까지 결과 기록
+- LT-01부터 LT-42까지 결과 기록
 - 치명적·높음 오류 0건
 - 실제 개인정보·비밀 키·운영 데이터가 코드, Git, 로그와 캡처에 없음
 - 로컬 실행과 미리보기 배포 절차가 재현 가능함
