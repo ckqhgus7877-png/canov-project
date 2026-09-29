@@ -29,6 +29,8 @@ OpenAI API 사용은 첫 CS 기능의 시험 제공업체 결정이며 최종 �
 
 랜딩 페이지의 확정 기술 조합과 보안 원칙은 `docs/planning/CANOV-landing-page-architecture-v0.1.md`에 정리되어 있습니다.
 
+화면 디자인은 [CANOV 라이브 랜딩페이지](https://canov-landing-mvp.vercel.app/)를 우선 참고하며, 확인된 시각 언어와 적용 경계는 `docs/planning/CANOV-design-reference-v0.1.md`에 정리되어 있습니다.
+
 첫 공개 신청서의 개인정보 항목과 보유·파기 기준은 `docs/planning/CANOV-privacy-data-policy-v0.1.md`를 기준으로 합니다.
 
 ## 폴더 구조

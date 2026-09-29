@@ -14,7 +14,7 @@
 - 운영 도구: 디테일러 Android 앱과 관리자 웹
 - Android MVP를 먼저 개발하고 Google Play 출시를 목표로 함
 - 브랜드 핵심: 차량별 Care Profile, 누적 관리 이력, 표준 작업 기준과 품질 확인
-- 화면 디자인은 로컬 `코덱스 프로젝트\카노브 랜딩페이지` 폴더를 우선 기준으로 하며 현재 자료는 투명 배경의 CANOV/CAR CARE 짙은 네이비 로고 PNG 1개
+- 화면 디자인은 `https://canov-landing-mvp.vercel.app/`의 라이브 랜딩페이지를 1순위로, 로컬 `코덱스 프로젝트\카노브 랜딩페이지`의 로고를 보조 기준으로 사용
 - Codex가 기획 정리·개발·테스트·오류 수정을 주도하며 중요한 변경에는 Claude 추가 검토를 제안하고 전달용 프롬프트 작성
 - 사용자가 프롬프트를 Claude에 전달하고 검토 결과를 가져오면 Codex가 타당성을 확인해 필요한 수정·재검증 수행
 - 서버측 AI 기반 고객 CS 자동화를 제품 목표에 포함하며 첫 CS 기능은 OpenAI API로 시험하고 운영용 AI 제공업체는 개발 도구와 별도로 최종 선정
@@ -78,6 +78,7 @@
 - `docs/planning/CANOV-QNA-checkpoint-v0.1.md`
 - `docs/planning/CANOV-landing-page-acceptance-v0.1.md`
 - `docs/planning/CANOV-landing-page-architecture-v0.1.md`
+- `docs/planning/CANOV-design-reference-v0.1.md`
 - `docs/planning/CANOV-privacy-data-policy-v0.1.md`
 - `docs/planning/CANOV-registration-privacy-copy-draft-v0.1.md`
 - `docs/references/CANOV-Brand-Story.pdf`
@@ -97,7 +98,6 @@
 - 간단한 점검·보충의 가격과 상세 작업 기준
 - 실제 개인정보 처리 안내 문구의 최종 검토와 운영 주체·보유 도메인·유료 메일 제공업체·휴대전화 본인 확인 예외 절차·인증번호 제공업체·보조 문의 경로
 - 결제대행사와 환불 기준
-- 랜딩페이지 전체 화면의 레이아웃·글꼴·간격·컴포넌트 세부 규칙: 현재 디자인 기준 폴더에는 로고만 있어 실제 화면 자료 또는 구현 과정에서 확정
 
 ## 후속 작업 시작 전 반드시 재확인
 

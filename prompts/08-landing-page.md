@@ -14,11 +14,12 @@
 - `docs/planning/CANOV-QNA-checkpoint-v0.1.md`
 - `docs/planning/CANOV-landing-page-acceptance-v0.1.md`
 - `docs/planning/CANOV-landing-page-architecture-v0.1.md`
+- `docs/planning/CANOV-design-reference-v0.1.md`
 - `docs/planning/CANOV-PRD-v0.4-cs-automation.md`
 - `docs/planning/CANOV-development-tools-plan.md`
 - `docs/references/CANOV-Brand-Story.pdf`
 
-로컬 디자인 기준은 `C:\Users\ckqhg\OneDrive\Documents\코덱스 프로젝트\카노브 랜딩페이지`의 최신 자료다. 구현 시작 전에 파일 목록을 다시 확인하고 사용한 파일명과 상태를 검증 보고서에 기록한다. 현재 확인된 `KakaoTalk_20260921_145912640_01.png`는 2078×757 투명 배경의 CANOV/CAR CARE 로고이며, 로고 형태와 짙은 네이비 브랜드 인상을 유지한다. 전체 화면 레이아웃·글꼴·간격·컴포넌트는 이 로고 한 장만으로 확정하지 않는다. 폴더나 자료를 찾을 수 없으면 임의 대체하지 말고 디자인 기준 누락으로 보고한다.
+1순위 디자인 기준은 `https://canov-landing-mvp.vercel.app/`이다. 구현 시작 전에 라이브 페이지를 다시 확인하고 확인일과 적용한 색상·타이포·여백·선·이미지·상호작용 기준을 검증 보고서에 기록한다. 로컬 `C:\Users\ckqhg\OneDrive\Documents\코덱스 프로젝트\카노브 랜딩페이지\KakaoTalk_20260921_145912640_01.png`는 로고 보조 원본이다. 라이브 페이지에 접근할 수 없으면 임의로 다른 디자인을 만들지 말고 마지막 확인 기준과 접근 실패를 보고한다. 라이브 문구·가격·DEEP CARE 항목·예시 데이터는 최신 Q&A·PRD 확인 없이 복사하지 않는다.
 
 문서가 충돌하면 최신 Q&A 체크포인트, 랜딩 페이지 완료 조건, 기술·보안 결정 순으로 우선한다. 미정 또는 자료 수령 대기 항목을 임의로 확정하지 않는다.
 
