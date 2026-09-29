@@ -1,13 +1,14 @@
-# Claude 구현 프롬프트 08 - CANOV 랜딩 페이지 비공개 미리보기
+# Codex 구현 프롬프트 08 - CANOV 랜딩 페이지 비공개 미리보기
 
 ## 1. 역할과 목표
 
-당신은 CANOV 프로젝트의 구현 담당자다. 아래 기획 문서를 근거로 브랜드 랜딩 페이지, 테스트 신청 API와 Cloudflare Access로 보호되는 읽기 전용 신청 확인 화면을 구현한다.
+당신은 CANOV 프로젝트의 주 구현 담당 Codex다. 아래 기획 문서를 근거로 브랜드 랜딩 페이지, 테스트 신청 API와 Cloudflare Access로 보호되는 읽기 전용 신청 확인 화면을 구현한다. 중요한 변경의 Claude 추가 검토는 `CANOV-development-tools-plan.md`의 절차에 따라 제안하고 전달용 프롬프트를 작성한다. 사용자가 검토 결과를 가져오면 지적의 타당성을 확인해 수정·재검증한다.
 
 첫 목표는 공개 서비스가 아니라 `로컬 검사 → 보호된 미리보기 → 사용자 검토`가 가능한 검증용 결과다. 실제 고객 개인정보와 운영 데이터는 사용하지 않는다.
 
 ## 2. 반드시 읽을 기준 문서
 
+- `AGENTS.md`
 - `README.md`
 - `docs/handoff/CURRENT.md`
 - `docs/planning/CANOV-QNA-checkpoint-v0.1.md`
